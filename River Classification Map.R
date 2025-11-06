@@ -5,7 +5,6 @@ library(rnaturalearthdata)
 library(ggplot2)
 library(ggspatial)
 library(extrafont)
-library(rio)
 library(dplyr)
 library(tidyr)
 
@@ -141,3 +140,4 @@ print(river_map)
 # Save Map ----------------------------------------------------------------
 ggsave("Iran_River_Classification.png", plot = river_map, 
        width = 12, height = 10, dpi = 300, bg = "white")
+
