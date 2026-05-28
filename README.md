@@ -21,4 +21,4 @@ library(rnaturalearthdata)\
 library(ggspatial)     # scale bars, north arrows\
 library(extrafont)     # custom fonts\
 library(dplyr)         # data wrangling\
-library(tidyr)         # data tidying\
+library(tidyr)         # data tidying
